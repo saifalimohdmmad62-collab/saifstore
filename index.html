@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saif Store</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">SaifStore</div>
+  <nav class="nav-links">
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Categories</a>
+    <a href="#">Contact</a>
+  </nav>
+  <button onclick="toggleCart()" class="cart-btn">🛒 <span id="cartCount">0</span></button>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>Welcome to Saif Store</h1>
+    <p>Get premium products at best prices</p>
+    <button class="hero-btn">Shop Now</button>
+  </div>
+</section>
+
+<!-- PRODUCT GRID -->
+<section class="product-section">
+  <h2>Featured Products</h2>
+  <div id="products" class="product-grid"></div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="contact">
+  <h2>Contact Us</h2>
+  <p>Phone: <a href="tel:99976155155">99976155155</a></p>
+  <p>Email: contact@saifstore.com</p>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  © 2025 SaifStore — All Rights Reserved.
+</footer><img src="https://drive.google.com/uc?export=view&id=1ABCDxyzEFGH123" alt="https://share.google/ahVu1AHyv4ACGnsib
+
+
+<!-- CART PANEL -->
+<div class="cart-panel" id="cartPanel">
+  <h3>Your Cart</h3>
+  <div id="cartItems"></div>
+  <div class="cart-total">Total: ₹<span id="cartTotal">0</span></div>
+  <button class="checkout-btn">Checkout</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
